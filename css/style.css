@@ -1,4 +1,5 @@
 body {
+    min-width: 2000px;
     background-color: #ffffff;
     padding: 0;
     margin: 0;
@@ -6,6 +7,24 @@ body {
     font-size: 16px;
     color: #4b5863;
     line-height: 36px;
+}
+
+.container {
+    width: 1500px;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    margin: 0;
 }
 
 .main-navigation {
@@ -25,16 +44,24 @@ body {
     text-align: center;
 }
 
-.promo b {
-    font-size: 48px;
-    line-height: 18px;
-    color: black;
+/* подумать над расположением
+.promo-img {
+    background-image: url("../img/photo-1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 433px; 
+    width: 2000px; 
+    height: 1333px;
+    z-index: 32;
 }
+*/ 
 
 .promo p {
     font-size: 18px;
     line-height: 18px;
-    padding-bottom: 106px;
+    /* padding-bottom: 106px;
+    padding-top: 26px; */
 }
 
 .promo a {
@@ -45,6 +72,17 @@ body {
     color: #43a9ff;
 }
 
+.features-text p {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.features-text h2 {
+    padding-bottom: 100px;
+}
 
 .main-footer {
     padding-top: 135px;
