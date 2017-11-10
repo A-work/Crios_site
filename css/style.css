@@ -1,0 +1,51 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #4b5863;
+    line-height: 36px;
+}
+
+.main-navigation {
+    padding-top: 57px;
+    padding-bottom: 262px;
+}
+
+.main-navigation-ul {
+    list-style: none;
+}
+
+.main-navigation-ul a {
+    text-decoration: none;
+}
+
+.promo {
+    text-align: center;
+}
+
+.promo b {
+    font-size: 48px;
+    line-height: 18px;
+    color: black;
+}
+
+.promo p {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 106px;
+}
+
+.promo a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #43a9ff;
+}
+
+
+.main-footer {
+    padding-top: 135px;
+}
